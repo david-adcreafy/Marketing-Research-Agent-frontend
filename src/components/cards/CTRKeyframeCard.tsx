@@ -1,7 +1,7 @@
 // filename: components/cards/CTRKeyframeCard.tsx
 "use client"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { VideoItem } from "@/lib/types"
+import { VideoItem } from "@/lib/type"
 import LineBasic from "@/components/charts/LineBasic"
 
 export default function CTRKeyframeCard({ video, ctrSeries }: { video: VideoItem; ctrSeries: Array<{t:string; v:number}> }) {
@@ -10,6 +10,7 @@ export default function CTRKeyframeCard({ video, ctrSeries }: { video: VideoItem
       <CardHeader><CardTitle>CTR 峰值 & 关键帧</CardTitle></CardHeader>
       <CardContent className="space-y-3">
         <div className="flex items-center gap-3">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={video.thumb} className="h-16 w-28 rounded-lg object-cover" alt={video.title}/>
           <div className="min-w-0">
             <div className="truncate text-sm font-medium">{video.title}</div>

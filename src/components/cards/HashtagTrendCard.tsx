@@ -3,7 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle, CardSub } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Sparkline from "@/components/charts/Sparkline"
-import { HashtagBlock } from "@/lib/types"
+import { HashtagBlock } from "@/lib/type"
 
 export default function HashtagTrendCard({ block }: { block: HashtagBlock }) {
   return (
@@ -22,6 +22,7 @@ export default function HashtagTrendCard({ block }: { block: HashtagBlock }) {
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {block.videos.slice(0,5).map(v => (
               <li key={v.id} className="flex gap-3 items-center">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={v.thumb} alt={v.title} className="h-14 w-24 rounded-lg object-cover" />
                 <div className="min-w-0">
                   <div className="truncate text-sm font-medium">{v.title}</div>

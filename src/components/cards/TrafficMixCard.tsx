@@ -2,7 +2,7 @@
 "use client"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import BarMini from "@/components/charts/BarMini"
-import { LandingPage } from "@/lib/types"
+import { LandingPage } from "@/lib/type"
 
 export default function TrafficMixCard({ mix, topPages }: { mix: Array<{name:string; value:number}>, topPages: LandingPage[] }) {
   return (

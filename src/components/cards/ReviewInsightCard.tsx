@@ -2,7 +2,7 @@
 "use client"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import BarMini from "@/components/charts/BarMini"
-import { ReviewAgg } from "@/lib/types"
+import { ReviewAgg } from "@/lib/type"
 
 export default function ReviewInsightCard({ agg }: { agg: ReviewAgg }) {
   const emotion = [

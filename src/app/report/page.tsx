@@ -650,7 +650,7 @@ export default function ReportPage() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              2025年，Apple AirPods 在美国市场的广告竞争呈现出<strong>"高成本、高回报"</strong>的特征。
+              2025年，Apple AirPods 在美国市场的广告竞争呈现出<strong>&ldquo;高成本、高回报&rdquo;</strong>的特征。
               尽管 CPM 因竞争加剧而上涨，Apple 通过其强大的品牌生态、精准的渠道策略与高用户忠诚度维持了领先的 ROI。
             </p>
             <p className="text-muted-foreground leading-relaxed">

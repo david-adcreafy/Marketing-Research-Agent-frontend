@@ -1,5 +1,5 @@
 // filename: lib/sample-data.ts
-import { HashtagBlock, LandingPage, ProductItem, ReviewAgg, VideoItem } from "./types"
+import { HashtagBlock, LandingPage, ProductItem, ReviewAgg, VideoItem } from "./type"
 
 export const sampleTrend = Array.from({ length: 14 }).map((_, i) => ({ t: `D${i + 1}`, v: Math.round(50 + Math.random() * 50) }))
 

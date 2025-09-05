@@ -33,6 +33,7 @@ export default function TopVideosCTRCard({ videos }: { videos: VideoItem[] }) {
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-muted text-sm font-medium">
               {i+1}
             </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src={v.thumb} 
               className="h-16 w-28 rounded-lg object-cover shadow-sm" 
