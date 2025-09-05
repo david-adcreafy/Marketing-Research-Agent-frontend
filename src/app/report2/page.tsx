@@ -675,6 +675,196 @@ export default function Report2Page() {
             </p>
           </CardContent>
         </Card>
+
+        {/* 数据来源 */}
+        <Card className="mt-6">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <span className="text-xl">📚</span>
+              数据来源与参考文献
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid gap-4 md:grid-cols-2">
+              <div className="space-y-3">
+                <div className="p-3 rounded-lg bg-red-50 dark:bg-red-950/50 border border-red-200 dark:border-red-800">
+                  <div className="font-medium text-sm text-red-700 dark:text-red-300 mb-2">[1] TikTok Shop 销售下滑</div>
+                  <a 
+                    href="https://www.reddit.com/r/TikTokshop/comments/1lizwqd/tik_tok_shop_sales_way_down_last_7_days/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-red-600 dark:text-red-400 hover:underline break-all"
+                  >
+                    Reddit - TikTok Shop 销售在过去7天大幅下降
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-blue-50 dark:bg-blue-950/50 border border-blue-200 dark:border-blue-800">
+                  <div className="font-medium text-sm text-blue-700 dark:text-blue-300 mb-2">[2] Shop 广告指标与归因</div>
+                  <a 
+                    href="https://seller-us.tiktok.com/university/essay?knowledge_id=7176196564813610&default_language=en" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-600 dark:text-blue-400 hover:underline break-all"
+                  >
+                    TikTok Seller University - Shop 广告指标与归因
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-orange-50 dark:bg-orange-950/50 border border-orange-200 dark:border-orange-800">
+                  <div className="font-medium text-sm text-orange-700 dark:text-orange-300 mb-2">[3] 德国卖家困境</div>
+                  <a 
+                    href="https://www.amz123.com/t/AtbgMeVe" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-orange-600 dark:text-orange-400 hover:underline break-all"
+                  >
+                    AMZ123 - 德国卖家哭晕！TikTok Shop 困境分析
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-purple-50 dark:bg-purple-950/50 border border-purple-200 dark:border-purple-800">
+                  <div className="font-medium text-sm text-purple-700 dark:text-purple-300 mb-2">[4] TikTok Shop 黑五攻略</div>
+                  <a 
+                    href="https://www.chwang.com/article/196389015351" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-purple-600 dark:text-purple-400 hover:underline break-all"
+                  >
+                    出海网 - TikTok Shop 黑五大促攻略：内容电商如何引爆全球销售
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-teal-50 dark:bg-teal-950/50 border border-teal-200 dark:border-teal-800">
+                  <div className="font-medium text-sm text-teal-700 dark:text-teal-300 mb-2">[5] TikTok Shop 店铺</div>
+                  <a 
+                    href="https://www.qizansea.com/category/tiktok-content/tiktokshop/tiktokshop-shop" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-teal-600 dark:text-teal-400 hover:underline break-all"
+                  >
+                    奇赞 - TikTok Shop 店铺运营指南
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-yellow-50 dark:bg-yellow-950/50 border border-yellow-200 dark:border-yellow-800">
+                  <div className="font-medium text-sm text-yellow-700 dark:text-yellow-300 mb-2">[6] 黑五备战策略</div>
+                  <a 
+                    href="https://user.guancha.cn/main/content?id=1508917" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-yellow-600 dark:text-yellow-400 hover:underline break-all"
+                  >
+                    观察者网 - 黑五备战要赢不要卷，TikTok Shop 策略分析
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-green-50 dark:bg-green-950/50 border border-green-200 dark:border-green-800">
+                  <div className="font-medium text-sm text-green-700 dark:text-green-300 mb-2">[7] 店铺广告与推广</div>
+                  <a 
+                    href="https://www.tt123.com/feature/AYErdwSu" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-green-600 dark:text-green-400 hover:underline break-all"
+                  >
+                    TT123 - 店铺广告与推广 TikTok Shop 功能指南
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 dark:border-indigo-800">
+                  <div className="font-medium text-sm text-indigo-700 dark:text-indigo-300 mb-2">[8] 欧盟跨境POP</div>
+                  <a 
+                    href="https://www.100ec.cn/detail--6648484.html" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-indigo-600 dark:text-indigo-400 hover:underline break-all"
+                  >
+                    网经社 - TikTok Shop欧盟跨境POP面向多平台商家开放
+                  </a>
+                </div>
+              </div>
+              <div className="space-y-3">
+                <div className="p-3 rounded-lg bg-pink-50 dark:bg-pink-950/50 border border-pink-200 dark:border-pink-800">
+                  <div className="font-medium text-sm text-pink-700 dark:text-pink-300 mb-2">[9] TikTok Shop 新兴市场</div>
+                  <a 
+                    href="https://zhuanlan.zhihu.com/p/1921575141642593340" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-pink-600 dark:text-pink-400 hover:underline break-all"
+                  >
+                    知乎专栏 - TikTok Shop新兴市场深度洞察
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-cyan-50 dark:bg-cyan-950/50 border border-cyan-200 dark:border-cyan-800">
+                  <div className="font-medium text-sm text-cyan-700 dark:text-cyan-300 mb-2">[10] TikTok 电商白皮书</div>
+                  <a 
+                    href="https://u-chuhai.com/index.php/2024/01/17/%E6%8A%A5%E5%91%8A%E5%88%86%E4%BA%AB%EF%BC%9A%E3%80%8A2024%E5%B9%B4tiktok%E7%94%B5%E5%95%86%E7%99%BD%E7%9A%AE%E4%B9%A6%E3%80%8B-%E8%A7%A3%E9%94%81tiktok%E7%94%B5%E5%95%86%E6%B5%81%E9%87%8F/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-cyan-600 dark:text-cyan-400 hover:underline break-all"
+                  >
+                    出海联合 - 2024年TikTok电商白皮书：解锁TikTok电商流量密码
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-violet-50 dark:bg-violet-950/50 border border-violet-200 dark:border-violet-800">
+                  <div className="font-medium text-sm text-violet-700 dark:text-violet-300 mb-2">[11] 德国用户产品兴趣</div>
+                  <a 
+                    href="https://de.statista.com/statistik/daten/studie/1609584/umfrage/interessante-produktarten-fuer-nutzer-von-tiktok-shop-in-deutschland/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-violet-600 dark:text-violet-400 hover:underline break-all"
+                  >
+                    Statista - TikTok Shop德国用户感兴趣的产品类型 2025
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200 dark:border-emerald-800">
+                  <div className="font-medium text-sm text-emerald-700 dark:text-emerald-300 mb-2">[12] 影响者广告产品类型</div>
+                  <a 
+                    href="https://de.statista.com/statistik/daten/studie/1395780/umfrage/umfrage-gekaufte-produkte-influencer-werbung-deutschland/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-emerald-600 dark:text-emerald-400 hover:underline break-all"
+                  >
+                    Statista - 影响者广告：德国顶级产品类型 2023
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800">
+                  <div className="font-medium text-sm text-amber-700 dark:text-amber-300 mb-2">[13] 影响者营销市场规模</div>
+                  <a 
+                    href="https://de.statista.com/statistik/daten/studie/1350928/umfrage/groesse-des-influencer-marketing-marktes-weltweit-bis-2025/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-amber-600 dark:text-amber-400 hover:underline break-all"
+                  >
+                    Statista - 影响者营销：全球市场规模至2025
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-800">
+                  <div className="font-medium text-sm text-rose-700 dark:text-rose-300 mb-2">[14] 影响者合作购买影响</div>
+                  <a 
+                    href="https://de.statista.com/statistik/daten/studie/1395793/umfrage/umfrage-einfluss-kaufentscheidung-influencer-marke-zusammenarbeit-deutschland/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-rose-600 dark:text-rose-400 hover:underline break-all"
+                  >
+                    Statista - 影响者合作对德国购买决策的影响 2023
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-slate-50 dark:bg-slate-950/50 border border-slate-200 dark:border-slate-800">
+                  <div className="font-medium text-sm text-slate-700 dark:text-slate-300 mb-2">[15] TikTok 数据与事实</div>
+                  <a 
+                    href="https://de.statista.com/themen/5975/tiktok/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-slate-600 dark:text-slate-400 hover:underline break-all"
+                  >
+                    Statista - TikTok 数据与事实
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="mt-6 p-4 rounded-lg bg-muted">
+              <p className="text-xs text-muted-foreground">
+                <strong>报告撰写日期：</strong>2025年9月5日<br/>
+                <strong>数据覆盖期：</strong>报告发布前7天<br/>
+                <strong>备注：</strong>部分数据基于行业报告与平台动态推断，实际表现需以 TikTok Shop 官方数据为准
+              </p>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   )

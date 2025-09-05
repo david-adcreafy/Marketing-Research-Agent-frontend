@@ -658,6 +658,206 @@ export default function ReportPage() {
             </p>
           </CardContent>
         </Card>
+
+        {/* 数据来源 */}
+        <Card className="mt-6">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <span className="text-xl">📚</span>
+              数据来源与参考文献
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid gap-4 md:grid-cols-2">
+              <div className="space-y-3">
+                <div className="p-3 rounded-lg bg-blue-50 dark:bg-blue-950/50 border border-blue-200 dark:border-blue-800">
+                  <div className="font-medium text-sm text-blue-700 dark:text-blue-300 mb-2">[1] AirPods 收入预测</div>
+                  <a 
+                    href="https://www.patentlyapple.com/2025/07/a-new-analytical-report-today-claims-that-apples-airpods-cumulative-revenue-will-cross-100-billion-in-2026.html" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-600 dark:text-blue-400 hover:underline break-all"
+                  >
+                    Patently Apple - AirPods 累计收入将在2026年突破1000亿美元
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-green-50 dark:bg-green-950/50 border border-green-200 dark:border-green-800">
+                  <div className="font-medium text-sm text-green-700 dark:text-green-300 mb-2">[2] AirPods 2 趋势分析</div>
+                  <a 
+                    href="https://www.accio.com/business/trend-of-apple-airpod-2" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-green-600 dark:text-green-400 hover:underline break-all"
+                  >
+                    Accio - Apple AirPods 2 趋势：2025年销售数据与市场分析
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-purple-50 dark:bg-purple-950/50 border border-purple-200 dark:border-purple-800">
+                  <div className="font-medium text-sm text-purple-700 dark:text-purple-300 mb-2">[3] 最畅销 AirPods 型号</div>
+                  <a 
+                    href="https://www.accio.com/business/best-selling-airpods-models-2025" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-purple-600 dark:text-purple-400 hover:underline break-all"
+                  >
+                    Accio - 最畅销 AirPods 型号 2025：顶级选择与市场分析
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-orange-50 dark:bg-orange-950/50 border border-orange-200 dark:border-orange-800">
+                  <div className="font-medium text-sm text-orange-700 dark:text-orange-300 mb-2">[4] Apple Ads 基准报告</div>
+                  <a 
+                    href="https://appdevelopermagazine.com/apple-ads-search-results-benchmarks-report-2025/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-orange-600 dark:text-orange-400 hover:underline break-all"
+                  >
+                    App Developer Magazine - Apple Ads 搜索结果基准报告 2025
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-teal-50 dark:bg-teal-950/50 border border-teal-200 dark:border-teal-800">
+                  <div className="font-medium text-sm text-teal-700 dark:text-teal-300 mb-2">[5] Counterpoint 研究</div>
+                  <a 
+                    href="https://www.counterpointresearch.com/insight/airpods-cumulative-revenue-to-cross-100-billion-in-2026" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-teal-600 dark:text-teal-400 hover:underline break-all"
+                  >
+                    Counterpoint Research - AirPods 累计收入将在2026年突破1000亿美元
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-pink-50 dark:bg-pink-950/50 border border-pink-200 dark:border-pink-800">
+                  <div className="font-medium text-sm text-pink-700 dark:text-pink-300 mb-2">[6] 美欧热销 AirPods</div>
+                  <a 
+                    href="https://www.accio.com/business/hotsellinguseuairpods" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-pink-600 dark:text-pink-400 hover:underline break-all"
+                  >
+                    Accio - 美欧热销 AirPods：2025年市场领导者与趋势
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 dark:border-indigo-800">
+                  <div className="font-medium text-sm text-indigo-700 dark:text-indigo-300 mb-2">[7] 热销 AirPods 2025</div>
+                  <a 
+                    href="https://www.accio.com/business/hot-selling-airpods" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-indigo-600 dark:text-indigo-400 hover:underline break-all"
+                  >
+                    Accio - 热销 AirPods 2025：顶级型号与市场洞察
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-cyan-50 dark:bg-cyan-950/50 border border-cyan-200 dark:border-cyan-800">
+                  <div className="font-medium text-sm text-cyan-700 dark:text-cyan-300 mb-2">[8] AirPods 市场份额</div>
+                  <a 
+                    href="https://www.6wresearch.com/market-takeaways-view/airpods-market-share" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-cyan-600 dark:text-cyan-400 hover:underline break-all"
+                  >
+                    6Wresearch - AirPods 市场份额 | 2025年趋势
+                  </a>
+                </div>
+              </div>
+              <div className="space-y-3">
+                <div className="p-3 rounded-lg bg-red-50 dark:bg-red-950/50 border border-red-200 dark:border-red-800">
+                  <div className="font-medium text-sm text-red-700 dark:text-red-300 mb-2">[9] AirPods Pro 3 泄露</div>
+                  <a 
+                    href="https://www.youtube.com/watch?v=aknGradmtIU" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-red-600 dark:text-red-400 hover:underline break-all"
+                  >
+                    YouTube - AirPods Pro 3 泄露揭示苹果粉碎廉价耳机的计划
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-gray-50 dark:bg-gray-950/50 border border-gray-200 dark:border-gray-800">
+                  <div className="font-medium text-sm text-gray-700 dark:text-gray-300 mb-2">[10] Reddit 社区讨论</div>
+                  <a 
+                    href="https://www.reddit.com/r/apple/comments/1ks1csj/airpods_are_still_untouchable_as_apple_crushes/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-gray-600 dark:text-gray-400 hover:underline break-all"
+                  >
+                    Reddit - AirPods 仍然无可匹敌，苹果在竞争中占据主导地位
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-yellow-50 dark:bg-yellow-950/50 border border-yellow-200 dark:border-yellow-800">
+                  <div className="font-medium text-sm text-yellow-700 dark:text-yellow-300 mb-2">[11] 最佳无线耳机</div>
+                  <a 
+                    href="https://www.pcmag.com/picks/airpod-alternatives-the-best-true-wireless-earbuds" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-yellow-600 dark:text-yellow-400 hover:underline break-all"
+                  >
+                    PCMag - 我们测试过的2025年最佳无线耳机
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200 dark:border-emerald-800">
+                  <div className="font-medium text-sm text-emerald-700 dark:text-emerald-300 mb-2">[12] Apple 营销策略</div>
+                  <a 
+                    href="https://businessmodelanalyst.com/apple-marketing-strategy/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-emerald-600 dark:text-emerald-400 hover:underline break-all"
+                  >
+                    Business Model Analyst - Apple 营销策略（2025）
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-violet-50 dark:bg-violet-950/50 border border-violet-200 dark:border-violet-800">
+                  <div className="font-medium text-sm text-violet-700 dark:text-violet-300 mb-2">[13] AirPods 营销策略案例</div>
+                  <a 
+                    href="https://www.latterly.org/airpods-marketing-strategy/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-violet-600 dark:text-violet-400 hover:underline break-all"
+                  >
+                    Latterly.org - AirPods 营销策略 2025：案例研究
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-800">
+                  <div className="font-medium text-sm text-rose-700 dark:text-rose-300 mb-2">[14] AirPods 市场主导策略</div>
+                  <a 
+                    href="https://blog.osum.com/airpods-marketing-strategy/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-rose-600 dark:text-rose-400 hover:underline break-all"
+                  >
+                    Osum Blog - AirPods 如何通过营销策略主导市场
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800">
+                  <div className="font-medium text-sm text-amber-700 dark:text-amber-300 mb-2">[15] Apple 营销组合</div>
+                  <a 
+                    href="https://www.latterly.org/apple-marketing-strategy/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-amber-600 dark:text-amber-400 hover:underline break-all"
+                  >
+                    Latterly.org - Apple 营销策略 2025：案例研究
+                  </a>
+                </div>
+                <div className="p-3 rounded-lg bg-lime-50 dark:bg-lime-950/50 border border-lime-200 dark:border-lime-800">
+                  <div className="font-medium text-sm text-lime-700 dark:text-lime-300 mb-2">[16] Apple Inc. 营销组合</div>
+                  <a 
+                    href="https://www.marketing91.com/marketing-mix-apple-inc/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-lime-600 dark:text-lime-400 hover:underline break-all"
+                  >
+                    Marketing91 - Apple Inc. 的营销组合和4P（2025年更新）
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="mt-6 p-4 rounded-lg bg-muted">
+              <p className="text-xs text-muted-foreground">
+                <strong>报告撰写日期：</strong>2025年9月5日<br/>
+                <strong>数据来源：</strong>Counterpoint Research、CIRP、SplitMetrics、6Wresearch 等公开报告
+              </p>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   )
